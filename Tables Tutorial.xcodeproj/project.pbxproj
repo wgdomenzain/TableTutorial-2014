@@ -10,11 +10,17 @@
 		D1A3A9BD19E06A9800E7E0C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9BC19E06A9800E7E0C2 /* main.m */; };
 		D1A3A9C019E06A9800E7E0C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9BF19E06A9800E7E0C2 /* AppDelegate.m */; };
 		D1A3A9C319E06A9800E7E0C2 /* Tables_Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9C119E06A9800E7E0C2 /* Tables_Tutorial.xcdatamodeld */; };
-		D1A3A9C619E06A9800E7E0C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9C519E06A9800E7E0C2 /* ViewController.m */; };
 		D1A3A9C919E06A9900E7E0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9C719E06A9900E7E0C2 /* Main.storyboard */; };
 		D1A3A9CB19E06A9900E7E0C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9CA19E06A9900E7E0C2 /* Images.xcassets */; };
 		D1A3A9CE19E06A9900E7E0C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9CC19E06A9900E7E0C2 /* LaunchScreen.xib */; };
 		D1A3A9DA19E06A9900E7E0C2 /* Tables_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9D919E06A9900E7E0C2 /* Tables_TutorialTests.m */; };
+		D1A3A9E519E06F0900E7E0C2 /* Welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9E419E06F0900E7E0C2 /* Welcome.m */; };
+		D1A3A9E819E0713300E7E0C2 /* cellWelcome.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3A9E719E0713300E7E0C2 /* cellWelcome.m */; };
+		D1A3A9F019E075B800E7E0C2 /* Leela.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9EB19E075B800E7E0C2 /* Leela.png */; };
+		D1A3A9F119E075B800E7E0C2 /* Fry.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9EC19E075B800E7E0C2 /* Fry.png */; };
+		D1A3A9F219E075B800E7E0C2 /* Professor.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9ED19E075B800E7E0C2 /* Professor.png */; };
+		D1A3A9F319E075B800E7E0C2 /* Zoidberg.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9EE19E075B800E7E0C2 /* Zoidberg.png */; };
+		D1A3A9F419E075B800E7E0C2 /* Bender.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A3A9EF19E075B800E7E0C2 /* Bender.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +40,21 @@
 		D1A3A9BE19E06A9800E7E0C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1A3A9BF19E06A9800E7E0C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D1A3A9C219E06A9800E7E0C2 /* Tables_Tutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tables_Tutorial.xcdatamodel; sourceTree = "<group>"; };
-		D1A3A9C419E06A9800E7E0C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1A3A9C519E06A9800E7E0C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D1A3A9C819E06A9900E7E0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1A3A9CA19E06A9900E7E0C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1A3A9CD19E06A9900E7E0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D1A3A9D319E06A9900E7E0C2 /* Tables TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tables TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A3A9D819E06A9900E7E0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A3A9D919E06A9900E7E0C2 /* Tables_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tables_TutorialTests.m; sourceTree = "<group>"; };
+		D1A3A9E319E06F0900E7E0C2 /* Welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Welcome.h; sourceTree = "<group>"; };
+		D1A3A9E419E06F0900E7E0C2 /* Welcome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Welcome.m; sourceTree = "<group>"; };
+		D1A3A9E619E0713300E7E0C2 /* cellWelcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cellWelcome.h; path = "Tables Tutorial/cellWelcome.h"; sourceTree = "<group>"; };
+		D1A3A9E719E0713300E7E0C2 /* cellWelcome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cellWelcome.m; path = "Tables Tutorial/cellWelcome.m"; sourceTree = "<group>"; };
+		D1A3A9EB19E075B800E7E0C2 /* Leela.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leela.png; sourceTree = "<group>"; };
+		D1A3A9EC19E075B800E7E0C2 /* Fry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fry.png; sourceTree = "<group>"; };
+		D1A3A9ED19E075B800E7E0C2 /* Professor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Professor.png; sourceTree = "<group>"; };
+		D1A3A9EE19E075B800E7E0C2 /* Zoidberg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zoidberg.png; sourceTree = "<group>"; };
+		D1A3A9EF19E075B800E7E0C2 /* Bender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bender.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +78,7 @@
 		D1A3A9AE19E06A9800E7E0C2 = {
 			isa = PBXGroup;
 			children = (
+				D1A3A9E919E0713D00E7E0C2 /* Customized */,
 				D1A3A9B919E06A9800E7E0C2 /* Tables Tutorial */,
 				D1A3A9D619E06A9900E7E0C2 /* Tables TutorialTests */,
 				D1A3A9B819E06A9800E7E0C2 /* Products */,
@@ -85,8 +99,8 @@
 			children = (
 				D1A3A9BE19E06A9800E7E0C2 /* AppDelegate.h */,
 				D1A3A9BF19E06A9800E7E0C2 /* AppDelegate.m */,
-				D1A3A9C419E06A9800E7E0C2 /* ViewController.h */,
-				D1A3A9C519E06A9800E7E0C2 /* ViewController.m */,
+				D1A3A9E319E06F0900E7E0C2 /* Welcome.h */,
+				D1A3A9E419E06F0900E7E0C2 /* Welcome.m */,
 				D1A3A9C719E06A9900E7E0C2 /* Main.storyboard */,
 				D1A3A9CA19E06A9900E7E0C2 /* Images.xcassets */,
 				D1A3A9CC19E06A9900E7E0C2 /* LaunchScreen.xib */,
@@ -99,6 +113,7 @@
 		D1A3A9BA19E06A9800E7E0C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1A3A9EA19E075A700E7E0C2 /* img */,
 				D1A3A9BB19E06A9800E7E0C2 /* Info.plist */,
 				D1A3A9BC19E06A9800E7E0C2 /* main.m */,
 			);
@@ -120,6 +135,27 @@
 				D1A3A9D819E06A9900E7E0C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1A3A9E919E0713D00E7E0C2 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3A9E619E0713300E7E0C2 /* cellWelcome.h */,
+				D1A3A9E719E0713300E7E0C2 /* cellWelcome.m */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		D1A3A9EA19E075A700E7E0C2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3A9EB19E075B800E7E0C2 /* Leela.png */,
+				D1A3A9EC19E075B800E7E0C2 /* Fry.png */,
+				D1A3A9ED19E075B800E7E0C2 /* Professor.png */,
+				D1A3A9EE19E075B800E7E0C2 /* Zoidberg.png */,
+				D1A3A9EF19E075B800E7E0C2 /* Bender.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +240,12 @@
 			files = (
 				D1A3A9C919E06A9900E7E0C2 /* Main.storyboard in Resources */,
 				D1A3A9CE19E06A9900E7E0C2 /* LaunchScreen.xib in Resources */,
+				D1A3A9F119E075B800E7E0C2 /* Fry.png in Resources */,
 				D1A3A9CB19E06A9900E7E0C2 /* Images.xcassets in Resources */,
+				D1A3A9F319E075B800E7E0C2 /* Zoidberg.png in Resources */,
+				D1A3A9F419E075B800E7E0C2 /* Bender.png in Resources */,
+				D1A3A9F019E075B800E7E0C2 /* Leela.png in Resources */,
+				D1A3A9F219E075B800E7E0C2 /* Professor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A3A9C019E06A9800E7E0C2 /* AppDelegate.m in Sources */,
+				D1A3A9E519E06F0900E7E0C2 /* Welcome.m in Sources */,
 				D1A3A9BD19E06A9800E7E0C2 /* main.m in Sources */,
-				D1A3A9C619E06A9800E7E0C2 /* ViewController.m in Sources */,
+				D1A3A9E819E0713300E7E0C2 /* cellWelcome.m in Sources */,
 				D1A3A9C319E06A9800E7E0C2 /* Tables_Tutorial.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

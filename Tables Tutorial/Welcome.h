@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Welcome.h
 //  Tables Tutorial
 //
 //  Created by Walter on 04/10/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Welcome : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *tblMain;
 
 @end
-
