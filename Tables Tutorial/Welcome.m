@@ -8,9 +8,8 @@
 
 #import "Welcome.h"
 #import "cellWelcome.h"
-
-NSMutableArray *maNames;
-NSMutableArray *maImages;
+#import "Details.h"
+#import "Declarations.h"
 
 @interface Welcome ()
 
@@ -70,7 +69,16 @@ NSMutableArray *maImages;
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    strSelectedName     = [NSString stringWithFormat:@"%@", maNames[indexPath.row]];
+    strSelectedImg      = [NSString stringWithFormat:@"%@", maImages[indexPath.row]];
     
+    NSLog(@"strSelectedName %@", strSelectedName);
+    NSLog(@"strSelectedImg %@", strSelectedImg);
+    
+    NSString * storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"Details"];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 
