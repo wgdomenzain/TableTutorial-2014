@@ -10,7 +10,7 @@
 
 @implementation Declarations
 
-NSMutableArray *maNames;
+//NSMutableArray *maNames;
 NSMutableArray *maImages;
 
 NSString        *strSelectedName;

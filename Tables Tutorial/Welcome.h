@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SBJson.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+
 
 @interface Welcome : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITableView *tblMain;
+
+//Actions
+- (IBAction)btnRefreshPressed:(id)sender;
+
+
 
 @end
