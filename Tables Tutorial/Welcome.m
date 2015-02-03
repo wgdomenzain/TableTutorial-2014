@@ -90,7 +90,7 @@ NSMutableArray  *maSurname;
     {
         NSString *post = [[NSString alloc] initWithFormat:@"id=%@", userID];
         NSLog(@"postService: %@",post);
-        NSURL *url = [NSURL URLWithString:@"http://ec2-54-148-58-107.us-west-2.compute.amazonaws.com/welcome/getFullName"];
+        NSURL *url = [NSURL URLWithString:@"http://ec2-54-148-203-144.us-west-2.compute.amazonaws.com"];
         NSLog(@"URL postService = %@", url);
         NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
         NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)[postData length]];
